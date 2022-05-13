@@ -1,0 +1,77 @@
+h1 {
+	text-align: center;
+	color: green;
+}
+.wrapper {
+	background-color: salmon;
+	margin: 50px auto;
+	width: 1200px;
+}
+.mainMenu {
+	display: table-cell;
+	outline: 2px solid red;
+	width: 400px;
+}
+.onlyKitchen {
+	outline: 2px solid green;
+	width: 600px;
+}
+.onlyKitchen div{
+	outline: 2px solid green;
+}
+.electroAuto {
+	display: table-cell;
+	outline: 2px solid fuchsia;
+	width: 800px;
+}
+.electroAutoTwo{
+	outline: 2px solid fuchsia;
+}
+.electroHome {
+	outline: 2px solid palegreen;
+}
+
+.wrapper,.inBlock {
+	background-color: grey;
+}
+.inChapter {
+	display: inline-block;
+	font-size: 16px;
+}
+.wrapperSegment {
+	font-size: 0;
+}
+.fullIndent {
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.clr {
+	clear: both;
+}
+.clrLf{
+	clear: left;
+}
+.clrRt {
+	clear: right;
+}
+.inFl {
+	display: block;
+	float: left;
+	background-color: gold;
+}
+.outFl {
+	display: block;
+	float: right;
+	background-color: olive;
+}
+.btn {
+	border: 3px solid greenyellow;
+	border-radius: 10px;
+	padding: 15px 25px;
+	margin: 0 0 0 15px;
+	background-color: grey;
+}
+.btnMain {
+	text-align: center;	
+}
